@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@300&family=Poppins:wght@200&family=Rubik+Moonrocks&family=Ubuntu:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    font-family: 'poppins',sans-serif;
+    background-color: burlywood;
+}
+#value{
+    font-size: 4.2rem;
+    font-weight: 700;
+    text-shadow: 3px 3px 5px currentColor;
+}
+.btns{
+    display: flex;
+}
+.btn{
+    margin: 1.2rem;
+    padding: 6px;
+    border: 2px solid rgba(255, 252, 75, 0.648);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: fit-content;
+    background-color: rgba(252, 207, 150, 0.311);
+    border: 2px solid rgba(234, 209, 82, 0.655);
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px 2px gold;
+    text-align: center;
+    padding: 3rem;
+}
+@media screen and (max-width: 400px) {
+    .container{
+        padding: 3rem;
+        margin: auto;
+    }
+    .btns{
+        flex-direction: column;
+    }
+}
+.container:hover{
+    box-shadow: 1px 1px 2px 1px yellow;
+}
